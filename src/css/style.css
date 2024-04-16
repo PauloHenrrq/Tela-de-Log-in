@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #5710b4;
+    overflow: hidden;
+}
+
+.geral .imagem .img-de-fundo{
+    position: relative;
+    bottom: 80px;
+    max-height: 340px;
+    width: 100%;
+    
+}
+
+.geral .alinhamento img {
+    display: flex;
+    margin: auto;
+    width: 17%;
+    position: relative;
+    bottom: 45px;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 5px -5px 20px
+}
+
+.geral .alinhamento .form {
+    position: relative;
+    bottom: 260px;
+    height: 500px;
+    max-width: 40%;
+    margin: auto;
+
+}
+
+.geral .alinhamento .form .formulario {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px;
+}
+
+.geral .alinhamento .form .formulario .conecte-se-agora {
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #3cb8d9;
+    font-family: sans-serif;
+}
+
+.geral .alinhamento .form .formulario .txt {
+    margin: auto;
+    position: relative;
+    bottom: 45px;
+    width: 77%;
+    height: 270px;
+}
+
+.geral .alinhamento .form .formulario .txt .nome,.senha,.forget {
+    opacity: 40%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.geral .alinhamento .form .formulario .txt .ckbox,.forget {
+    position: relative;
+    right: 4px;
+    margin-bottom: 15px;
+}
+
+.geral .alinhamento .form .formulario .txt .inome,.psword {
+    box-sizing: border-box;
+    padding: 15px 0;
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 100%;
+    margin: 3px 0 8px 0;
+    padding-inline: 15px;
+    background-color: gainsboro;
+    border: 0;
+    font: inherit sans-serif;
+}
+
+.geral .alinhamento .form .formulario .txt .conecte-se {
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+    background-color: #3cb8d9;
+    border: 0;
+}
+
+.geral .alinhamento .form .formulario .txt .conecte-se:hover{
+    background-color: #5710b4;
+    cursor: pointer;
+}
+
+.geral .alinhamento .form .formulario .txt .criar-mudar {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.geral .alinhamento .form .formulario .txt .criar-mudar .criar-conta,.mudar-senha {
+    color: #3cb8d9;
+    font-family: sans-serif;
+    border-style: 0 0 solid;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.geral .alinhamento .form .formulario .txt .pik {
+    display: flex;
+    font-size: 12px;
+}
+
+.geral .alinhamento .form .formulario .txt .pik .freepik {
+    margin: auto;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.geral .alinhamento .form .formulario .txt .pik .Freepik {
+    color: black;
+    text-decoration: none;
+    border-style: none none solid;
+    border-width: 1px;
+    padding: 0 0 2px 0;
+
+}
+
+.geral .alinhamento .form .formulario .txt .pik .Freepik:hover {
+    border-color: #3cb8d9;
+    border-style: none none solid;
+    border-width: 1px;
+    padding: 0 0 3px 0;
+}
+
